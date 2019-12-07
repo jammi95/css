@@ -19,16 +19,16 @@ html, body {
 }
 
 /* Top 버튼 이미지 변경 */
-/* #movetotop > img {
+#movetotop > img {
 	display: none;
 }
 #movetotop {
 	display: inline-block;
-	background-image: url();
+	background-image: url(./images/move-to-top-btn.png);
 	background-size: contain;
 	width: 72px;
 	height: 72px;
-} */
+}
 
 /* 글작성 툴바 테두리 색 */
 .fr-toolbar {
