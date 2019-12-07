@@ -5,6 +5,8 @@
 	--color-2: #fdd8de;
 	--color-bg: #ffffff;
 	--color-bg-2: #fefefe;
+
+	--img-gudogi: url(./images/gudogi.png);
 }
 
 * {
@@ -41,6 +43,15 @@ html, body {
 }
 
 /* 접속자 수 */
+.fa-user:before {
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	transform: translateY(2px);
+	background-image: var(--img-gudogi);
+	background-size: contain;
+}
 #board-info #viewers-area {
 	font-size: 12px;
 }
