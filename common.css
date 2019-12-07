@@ -1,1 +1,71 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+:root {
+	--color-0: #fb8989;
+	--color-1: #fac1cb;
+	--color-2: #fdd8de;
+	--color-bg: #ffffff;
+	--color-bg-2: #fefefe;
+}
 
+* {
+	font-family: "Noto Sans KR","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* 배경색 */
+html, body {
+	background: var(--color-bg);
+}
+
+/* Top 버튼 이미지 변경 */
+/* #movetotop > img {
+	display: none;
+}
+#movetotop {
+	display: inline-block;
+	background-image: url();
+	background-size: contain;
+	width: 72px;
+	height: 72px;
+} */
+
+/* 글작성 툴바 테두리 색 */
+.fr-toolbar {
+	border-top-color: var(--color-0);
+}
+
+/* 버튼색 */
+.btn-primary {
+	background-color: var(--color-2);
+	border-color: var(--color-2);
+	color: #777;
+}
+
+/* 접속자 수 */
+#board-info #viewers-area {
+	font-size: 12px;
+}
+#viewers:before {
+	content: '구도기 ';
+}
+#viewers:after {
+	content: '마리가 꿈틀거리고 있습니다 ~_~';
+}
+
+/* 페이지네이션 버튼 */
+.pagination>li>a {
+	border-radius: 34px;
+	border: none;
+}
+
+/* 선택된버튼 focus, hover */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: var(--color-0);
+}
+/* 일반버튼 hover */
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	background-color: var(--color-2);
+}
+/* 좌우버튼 radius */
+.pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {
+	border-radius: 34px;
+}
