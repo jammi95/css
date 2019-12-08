@@ -1,4 +1,6 @@
-@import url(//cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+/* @import url(//cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
+@font-face { font-family: 'KOMACON'; src: url('//cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 :root {
 	--color-0: #fb8989;
 	--color-1: #ff90a4;
@@ -12,7 +14,7 @@
 }
 
 * {
-	font-family: "NanumSquare","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "KOMACON","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* 배경색 */
