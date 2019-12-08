@@ -21,7 +21,8 @@ header > #header-search-bar #header-search-input {
 
 /* 메인 로고 */
 header > #header-area > a > h1 {
-	width: 128px;
-	background: var(--img-logo) no-repeat;
+	height: 38px;
+	width: 122px;
+	background: var(--img-m-logo) no-repeat;
 	background-size: contain;
 }
