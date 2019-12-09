@@ -26,3 +26,15 @@ header > #header-area > a > h1 {
 	background: var(--img-m-logo) no-repeat;
 	background-size: contain;
 }
+
+/* 상단 메뉴 아이콘 영역 */
+#board-info:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+#board-info > a.board-right-menu {
+	border: none;
+	padding: 10px;
+	color: var(--color-0);
+}
