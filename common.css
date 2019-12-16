@@ -47,13 +47,13 @@ html, body {
 }
 
 /* 접속자 수 */
-.fa-user:before {
+#viewers-area .fa-user:before {
 	content: '';
 	display: inline-block;
 	width: 14px;
 	height: 14px;
 	transform: translateY(2px);
-	background-image: var(--img-gudogi);
+	background-image: url(./images/gudogi.png);
 	background-size: contain;
 }
 #board-info #viewers-area {
