@@ -142,3 +142,63 @@ html, body {
 	-ms-animation: star 1s infinite;
 	animation: star 1s infinite;
 }
+
+/* 이모티콘 변경 */
+.fr-command.fr-emoticon[data-param1=JKanStyle] > img,
+.fr-command.fr-emoticon[data-param1=OptimizePrime] > img,
+.fr-command.fr-emoticon[data-param1=StoneLightning] > img,
+.fr-command.fr-emoticon[data-param1=TheRinger] > img,
+.fr-command.fr-emoticon[data-param1=RedCoat] > img,
+.fr-command.fr-emoticon[data-param1=Kappa] > img,
+.fr-command.fr-emoticon[data-param1=JonCarnage] > img,
+.fr-command.fr-emoticon[data-param1=BCWarrior] > img {
+	width: 20px !important;
+	height: 20px !important;
+	padding-left: 20px;
+	background-size: 100%;
+}
+.fr-emoticon.fr-deletable > img[alt=JKanStyle],
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime],
+.fr-emoticon.fr-deletable > img[alt=StoneLightning],
+.fr-emoticon.fr-deletable > img[alt=TheRinger],
+.fr-emoticon.fr-deletable > img[alt=RedCoat],
+.fr-emoticon.fr-deletable > img[alt=Kappa],
+.fr-emoticon.fr-deletable > img[alt=JonCarnage],
+.fr-emoticon.fr-deletable > img[alt=BCWarrior] {
+	width: 92px !important;
+	height: 92px !important;
+	padding-left: 92px;
+	background-size: 100%;
+}
+.fr-command.fr-emoticon[data-param1=JKanStyle] > img,
+.fr-emoticon.fr-deletable > img[alt=JKanStyle] {
+	background-image: url(./images/emoticon/jammi-emoti-1.gif);
+}
+.fr-command.fr-emoticon[data-param1=OptimizePrime] > img,
+.fr-emoticon.fr-deletable > img[alt=OptimizePrime] {
+	background-image: url(./images/emoticon/jammi-emoti-3.gif);
+}
+.fr-command.fr-emoticon[data-param1=StoneLightning] > img,
+.fr-emoticon.fr-deletable > img[alt=StoneLightning] {
+	background-image: url(./images/emoticon/jammi-emoti-9.gif);
+}
+.fr-command.fr-emoticon[data-param1=TheRinger] > img,
+.fr-emoticon.fr-deletable > img[alt=TheRinger] {
+	background-image: url(./images/emoticon/jammi-emoti-13.gif);
+}
+.fr-command.fr-emoticon[data-param1=RedCoat] > img,
+.fr-emoticon.fr-deletable > img[alt=RedCoat] {
+	background-image: url(./images/emoticon/jammi-emoti-16.gif);
+}
+.fr-command.fr-emoticon[data-param1=Kappa] > img,
+.fr-emoticon.fr-deletable > img[alt=Kappa] {
+	background-image: url(./images/emoticon/jammi-emoti-17.gif);
+}
+.fr-command.fr-emoticon[data-param1=JonCarnage] > img,
+.fr-emoticon.fr-deletable > img[alt=JonCarnage] {
+	background-image: url(./images/emoticon/jammi-emoti-19.gif);
+}
+.fr-command.fr-emoticon[data-param1=BCWarrior] > img,
+.fr-emoticon.fr-deletable > img[alt=BCWarrior] {
+	background-image: url(./images/emoticon/jammi-emoti-20.gif);
+}
