@@ -5,8 +5,9 @@
 	--color-0: #fb8989;
 	--color-1: #ff90a4;
 	--color-2: #fdd8de;
-	--color-bg: #edead7;
-	--color-bg-2: #fefefe;
+	--color-bg-1: #fffdf0;
+	--color-bg-2: #edead7;
+	--color-bg-3: #f3edcb;
 
 	--img-logo: url(./images/logo.png);
 	--img-m-logo: url(./images/m-logo.png);
@@ -19,6 +20,7 @@
 
 /* 배경색 */
 html, body {
+	height: auto;
 	background: var(--color-bg);
 }
 
