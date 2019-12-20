@@ -5,13 +5,13 @@
 	--color-0: #fb8989;
 	--color-1: #ff90a4;
 	--color-2: #fdd8de;
+	--color-3: #fdd8fd;
+
 	--color-bg-1: #fffdf0;
 	--color-bg-2: #edead7;
 	--color-bg-3: #f3edcb;
 
-	--img-logo: url(./images/logo.png);
-	--img-m-logo: url(./images/m-logo.png);
-	--img-gudogi: url(./images/gudogi.png);
+	--btn-primary-color: #777777;
 }
 
 * {
@@ -43,9 +43,39 @@ html, body {
 
 /* 버튼색 */
 .btn-primary {
+	color: var(--btn-primary-color);
 	background-color: var(--color-2);
-	border-color: var(--color-2);
-	color: #777;
+	border-color: var(--color-2)
+}
+.btn-primary.focus,.btn-primary:focus {
+	color: #f2f2f2;
+	background-color: var(--color-1);
+	border-color: var(--color-1)
+}
+.btn-primary:hover {
+	color: #f2f2f2;
+	background-color: var(--color-1);
+	border-color: var(--color-1)
+}
+.btn-primary.active, .btn-primary:active {
+	color: #f2f2f2;
+	background-color: var(--color-0);
+	border-color: var(--color-0)
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover,
+.btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover {
+	color: #f2f2f2;
+	background-color: var(--color-0);
+	border-color: var(--color-0)
+}
+.btn-primary.disabled.focus, .btn-primary.disabled:focus,
+.btn-primary.disabled:hover, .btn-primary[disabled].focus,
+.btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+	background-color: var(--color-3);
+	border-color: var(--color-3);
 }
 
 /* 접속자 수 */
