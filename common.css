@@ -136,6 +136,15 @@ fieldset[disabled] .btn-primary:hover {
 	border-radius: 34px;
 }
 
+/* 방장 아이콘 변경 */
+img[alt=Broadcaster] {
+	padding-left: 18px;
+	width: 18px;
+	height: 18px;
+	background-image: url(./images/kingdogi.png);
+	background-size: contain;
+}
+
 /* 하트 아이콘 애니메이션 효과 */
 @keyframes beat {
 	from { transform: scale(1.2); }
