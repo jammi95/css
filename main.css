@@ -67,9 +67,10 @@ header #header-bar > .row {
 	border-radius: 43px;
 }
 
-/* 메인 영역 테두리 제거 */
+/* 메인 영역 테두리 제거, 그림자 */
 #main #main-content > div.frame {
 	border: none;
+	box-shadow: 0px 0px 8px 1px var(--color-0);
 }
 
 /* 게시판 목록 너비 */
