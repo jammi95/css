@@ -209,7 +209,8 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=RedCoat] > img,
 .fr-command.fr-emoticon[data-param1=Kappa] > img,
 .fr-command.fr-emoticon[data-param1=JonCarnage] > img,
-.fr-command.fr-emoticon[data-param1=BCWarrior] > img {
+.fr-command.fr-emoticon[data-param1=BCWarrior] > img,
+.fr-command.fr-emoticon[data-param1=GingerPower] > img {
 	width: 20px !important;
 	height: 20px !important;
 	padding-left: 20px;
@@ -222,7 +223,8 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=RedCoat],
 .fr-emoticon.fr-deletable > img[alt=Kappa],
 .fr-emoticon.fr-deletable > img[alt=JonCarnage],
-.fr-emoticon.fr-deletable > img[alt=BCWarrior] {
+.fr-emoticon.fr-deletable > img[alt=BCWarrior],
+.fr-emoticon.fr-deletable > img[alt=GingerPower] {
 	width: 92px !important;
 	height: 92px !important;
 	padding-left: 92px;
@@ -259,4 +261,8 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=BCWarrior] > img,
 .fr-emoticon.fr-deletable > img[alt=BCWarrior] {
 	background-image: url(./images/emoticon/jammi-emoti-20.gif);
+}
+.fr-command.fr-emoticon[data-param1=GingerPower] > img,
+.fr-emoticon.fr-deletable > img[alt=GingerPower] {
+	background-image: url(./images/emoticon/jammi-emoti-21.gif);
 }
