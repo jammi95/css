@@ -17,6 +17,11 @@
 * {
 	font-family: "KOMACON","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.list-writer span,
+#article-info-writer strong,
+.reply-writer {
+	font-family: Helvetica,Arial,sans-serif;
+}
 
 /* 배경색 */
 html, body {
