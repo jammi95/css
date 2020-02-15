@@ -216,7 +216,8 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=HolidayPresent] > img,
 .fr-command.fr-emoticon[data-param1=HolidayOrnament] > img,
 .fr-command.fr-emoticon[data-param1=HolidayLog] > img,
-.fr-command.fr-emoticon[data-param1=HolidayCookie] > img {
+.fr-command.fr-emoticon[data-param1=HolidayCookie] > img,
+.fr-command.fr-emoticon[data-param1=GunRun] > img {
 	width: 20px !important;
 	height: 20px !important;
 	padding-left: 20px;
@@ -231,7 +232,8 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=HolidayPresent],
 .fr-emoticon.fr-deletable > img[alt=HolidayOrnament],
 .fr-emoticon.fr-deletable > img[alt=HolidayLog],
-.fr-emoticon.fr-deletable > img[alt=HolidayCookie] {
+.fr-emoticon.fr-deletable > img[alt=HolidayCookie],
+.fr-emoticon.fr-deletable > img[alt=GunRun] {
 	width: 92px !important;
 	height: 92px !important;
 	padding-left: 92px;
@@ -276,4 +278,8 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=HolidayCookie] > img,
 .fr-emoticon.fr-deletable > img[alt=HolidayCookie] {
 	background-image: url(./images/emoticon/jammi-emoti-22.gif);
+}
+.fr-command.fr-emoticon[data-param1=GunRun] > img,
+.fr-emoticon.fr-deletable > img[alt=GunRun] {
+	background-image: url(./images/emoticon/jammi-emoti-23.gif);
 }
