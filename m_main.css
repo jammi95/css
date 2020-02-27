@@ -52,6 +52,11 @@ header > #header-area > a > h1 {
 #article-content-wrapper #article-content img[alt=HolidayOrnament],
 #article-content-wrapper #article-content img[alt=HolidayLog],
 #article-content-wrapper #article-content img[alt=HolidayCookie],
-#article-content-wrapper #article-content img[alt=GunRun] {
+#article-content-wrapper #article-content img[alt=GunRun],
+#article-content-wrapper #article-content img[alt=PixelBob],
+#article-content-wrapper #article-content img[alt=FBPenalty],
+#article-content-wrapper #article-content img[alt=FBCallenge],
+#article-content-wrapper #article-content img[alt=FBCatch],
+#article-content-wrapper #article-content img[alt=FBBlock] {
 	height: 92px !important;
 }

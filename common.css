@@ -217,7 +217,12 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=HolidayOrnament] > img,
 .fr-command.fr-emoticon[data-param1=HolidayLog] > img,
 .fr-command.fr-emoticon[data-param1=HolidayCookie] > img,
-.fr-command.fr-emoticon[data-param1=GunRun] > img {
+.fr-command.fr-emoticon[data-param1=GunRun] > img,
+.fr-command.fr-emoticon[data-param1=PixelBob] > img,
+.fr-command.fr-emoticon[data-param1=FBPenalty] > img,
+.fr-command.fr-emoticon[data-param1=FBChallenge] > img,
+.fr-command.fr-emoticon[data-param1=FBCatch] > img,
+.fr-command.fr-emoticon[data-param1=FBBlock] > img {
 	width: 20px !important;
 	height: 20px !important;
 	padding-left: 20px;
@@ -233,7 +238,12 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=HolidayOrnament],
 .fr-emoticon.fr-deletable > img[alt=HolidayLog],
 .fr-emoticon.fr-deletable > img[alt=HolidayCookie],
-.fr-emoticon.fr-deletable > img[alt=GunRun] {
+.fr-emoticon.fr-deletable > img[alt=GunRun],
+.fr-emoticon.fr-deletable > img[alt=PixelBob],
+.fr-emoticon.fr-deletable > img[alt=FBPenalty],
+.fr-emoticon.fr-deletable > img[alt=FBChallenge],
+.fr-emoticon.fr-deletable > img[alt=FBCatch],
+.fr-emoticon.fr-deletable > img[alt=FBBlock] {
 	width: 92px !important;
 	height: 92px !important;
 	padding-left: 92px;
@@ -282,4 +292,24 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=GunRun] > img,
 .fr-emoticon.fr-deletable > img[alt=GunRun] {
 	background-image: url(./images/emoticon/jammi-emoti-23.gif);
+}
+.fr-command.fr-emoticon[data-param1=PixelBob] > img,
+.fr-emoticon.fr-deletable > img[alt=PixelBob] {
+	background-image: url(./images/emoticon/jammi-emoti-24.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBPenalty] > img,
+.fr-emoticon.fr-deletable > img[alt=FBPenalty] {
+	background-image: url(./images/emoticon/jammi-emoti-25.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBCallenge] > img,
+.fr-emoticon.fr-deletable > img[alt=FBCallenge] {
+	background-image: url(./images/emoticon/jammi-emoti-26.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBCatch] > img,
+.fr-emoticon.fr-deletable > img[alt=FBCatch] {
+	background-image: url(./images/emoticon/jammi-emoti-27.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBBlock] > img,
+.fr-emoticon.fr-deletable > img[alt=FBBlock] {
+	background-image: url(./images/emoticon/jammi-emoti-28.gif);
 }
