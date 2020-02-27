@@ -40,3 +40,18 @@ header > #header-area > a > h1 {
 	padding: 10px;
 	color: var(--color-0);
 }
+
+/* 게시글 이모티콘 크기 */
+#article-content-wrapper #article-content img[alt=SingsNote],
+#article-content-wrapper #article-content img[alt=SingsMic],
+#article-content-wrapper #article-content img[alt=TwitchSings],
+#article-content-wrapper #article-content img[alt=SoonerLater],
+#article-content-wrapper #article-content img[alt=HolidayTree],
+#article-content-wrapper #article-content img[alt=HolidaySanta],
+#article-content-wrapper #article-content img[alt=HolidayPresent],
+#article-content-wrapper #article-content img[alt=HolidayOrnament],
+#article-content-wrapper #article-content img[alt=HolidayLog],
+#article-content-wrapper #article-content img[alt=HolidayCookie],
+#article-content-wrapper #article-content img[alt=GunRun] {
+	height: 92px !important;
+}
