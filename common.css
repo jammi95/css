@@ -301,8 +301,8 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=FBPenalty] {
 	background-image: url(./images/emoticon/jammi-emoti-25.gif);
 }
-.fr-command.fr-emoticon[data-param1=FBCallenge] > img,
-.fr-emoticon.fr-deletable > img[alt=FBCallenge] {
+.fr-command.fr-emoticon[data-param1=FBChallenge] > img,
+.fr-emoticon.fr-deletable > img[alt=FBChallenge] {
 	background-image: url(./images/emoticon/jammi-emoti-26.gif);
 }
 .fr-command.fr-emoticon[data-param1=FBCatch] > img,
