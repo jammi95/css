@@ -108,6 +108,10 @@ div#article-list:before {
 #article-list > .article-list-row.active:hover {
   background-color: #fff9e5af;
 }
+/* 방문글 색 변경 */
+#article-list>.article-list-row>.item>.list-title>a:visited {
+  color: #b5b5b5 !important;
+}
 
 /* 메인 영역 테두리 제거, 그림자 */
 #main #main-content > div.frame {
