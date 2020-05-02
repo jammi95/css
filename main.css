@@ -80,17 +80,33 @@ header #header-bar > .row {
   background-position: center 30px;
 }
 div#article-list:before {
-    display: block;
-    content: '';
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 135px;
-    left: 0;
-    background-color: #ffffff;
+  display: block;
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 135px;
+  left: 0;
+  background-color: #ffffff;
 }
-#article-list>.article-list-row:hover {
+#article-list > .article-list-row:hover {
   background: #fafafa7e;
+}
+#article-list > .article-list-row > .item > .list-header.v0 > span,
+#article-list > .article-list-row:hover > .item > .list-header.v0 > span {
+  background-color: transparent;
+  color: transparent;
+}
+/* 인기글 */
+#article-list>.article-list-row.hot:hover {
+  background-color: #f3eef7af;
+}
+/* 열린글 */
+#article-list > .article-list-row.active {
+  background-color: #fff9e5c1;
+}
+#article-list > .article-list-row.active:hover {
+  background-color: #fff9e5af;
 }
 
 /* 메인 영역 테두리 제거, 그림자 */
