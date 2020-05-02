@@ -89,6 +89,9 @@ div#article-list:before {
     left: 0;
     background-color: #ffffff;
 }
+#article-list>.article-list-row:hover {
+  background: #fafafa7e;
+}
 
 /* 메인 영역 테두리 제거, 그림자 */
 #main #main-content > div.frame {
