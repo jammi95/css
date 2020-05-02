@@ -12,6 +12,8 @@
 	--color-bg-3: #f3edcb;
 
 	--btn-primary-color: #777777;
+
+  --list-background-img: url(./images/background-profile.jpg);
 }
 
 * {
