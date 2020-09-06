@@ -252,7 +252,13 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=FBPenalty],
 .fr-emoticon.fr-deletable > img[alt=FBChallenge],
 .fr-emoticon.fr-deletable > img[alt=FBCatch],
-.fr-emoticon.fr-deletable > img[alt=FBBlock],
+.fr-emoticon.fr-deletable > img[alt=FBBlock] {
+	width: 92px !important;
+	height: 92px !important;
+	padding-left: 92px;
+	background-size: 100%;
+}
+/* 작은 사이즈 이모티콘 */
 .fr-emoticon.fr-deletable > img[alt=FBSpiral],
 .fr-emoticon.fr-deletable > img[alt=FBPass],
 .fr-emoticon.fr-deletable > img[alt=FBRun],
@@ -260,11 +266,12 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=NonBinaryPride],
 .fr-emoticon.fr-deletable > img[alt=MaxLOL],
 .fr-emoticon.fr-deletable > img[alt=IntersexPride] {
-	width: 92px !important;
-	height: 92px !important;
-	padding-left: 92px;
+	width: 28px !important;
+	height: 28px !important;
+	padding-left: 28px;
 	background-size: 100%;
 }
+
 .fr-command.fr-emoticon[data-param1=SingsNote] > img,
 .fr-emoticon.fr-deletable > img[alt=SingsNote] {
 	background-image: url(./images/emoticon/jammi-emoti-1.gif);
