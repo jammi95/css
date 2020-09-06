@@ -224,7 +224,14 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=FBPenalty] > img,
 .fr-command.fr-emoticon[data-param1=FBChallenge] > img,
 .fr-command.fr-emoticon[data-param1=FBCatch] > img,
-.fr-command.fr-emoticon[data-param1=FBBlock] > img {
+.fr-command.fr-emoticon[data-param1=FBBlock] > img,
+.fr-command.fr-emoticon[data-param1=FBSpiral] > img,
+.fr-command.fr-emoticon[data-param1=FBPass] > img,
+.fr-command.fr-emoticon[data-param1=FBRun] > img,
+.fr-command.fr-emoticon[data-param1=GenderFluidPride] > img,
+.fr-command.fr-emoticon[data-param1=NonBinaryPride] > img,
+.fr-command.fr-emoticon[data-param1=MaxLOL] > img,
+.fr-command.fr-emoticon[data-param1=IntersexPride] > img {
 	width: 20px !important;
 	height: 20px !important;
 	padding-left: 20px;
@@ -245,7 +252,14 @@ img[alt=Broadcaster] {
 .fr-emoticon.fr-deletable > img[alt=FBPenalty],
 .fr-emoticon.fr-deletable > img[alt=FBChallenge],
 .fr-emoticon.fr-deletable > img[alt=FBCatch],
-.fr-emoticon.fr-deletable > img[alt=FBBlock] {
+.fr-emoticon.fr-deletable > img[alt=FBBlock],
+.fr-emoticon.fr-deletable > img[alt=FBSpiral],
+.fr-emoticon.fr-deletable > img[alt=FBPass],
+.fr-emoticon.fr-deletable > img[alt=FBRun],
+.fr-emoticon.fr-deletable > img[alt=GenderFluidPride],
+.fr-emoticon.fr-deletable > img[alt=NonBinaryPride],
+.fr-emoticon.fr-deletable > img[alt=MaxLOL],
+.fr-emoticon.fr-deletable > img[alt=IntersexPride] {
 	width: 92px !important;
 	height: 92px !important;
 	padding-left: 92px;
@@ -314,4 +328,32 @@ img[alt=Broadcaster] {
 .fr-command.fr-emoticon[data-param1=FBBlock] > img,
 .fr-emoticon.fr-deletable > img[alt=FBBlock] {
 	background-image: url(./images/emoticon/jammi-emoti-28.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBSpiral] > img,
+.fr-emoticon.fr-deletable > img[alt=FBSpiral] {
+	background-image: url(./images/emoticon/jammi-emoti-29.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBPass] > img,
+.fr-emoticon.fr-deletable > img[alt=FBPass] {
+	background-image: url(./images/emoticon/jammi-emoti-30.gif);
+}
+.fr-command.fr-emoticon[data-param1=FBRun] > img,
+.fr-emoticon.fr-deletable > img[alt=FBRun] {
+	background-image: url(./images/emoticon/jammi-emoti-31.gif);
+}
+.fr-command.fr-emoticon[data-param1=GenderFluidPride] > img,
+.fr-emoticon.fr-deletable > img[alt=GenderFluidPride] {
+	background-image: url(./images/emoticon/jammi-emoti-32.gif);
+}
+.fr-command.fr-emoticon[data-param1=NonBinaryPride] > img,
+.fr-emoticon.fr-deletable > img[alt=NonBinaryPride] {
+	background-image: url(./images/emoticon/jammi-emoti-33.gif);
+}
+.fr-command.fr-emoticon[data-param1=MaxLOL] > img,
+.fr-emoticon.fr-deletable > img[alt=MaxLOL] {
+	background-image: url(./images/emoticon/jammi-emoti-34.gif);
+}
+.fr-command.fr-emoticon[data-param1=IntersexPride] > img,
+.fr-emoticon.fr-deletable > img[alt=IntersexPride] {
+	background-image: url(./images/emoticon/jammi-emoti-35.gif);
 }
