@@ -132,11 +132,11 @@ div#article-list:before {
 }
 
 /* 닉네임 옆 문구추가 */
-#board-info h1 > a:after {
+/* #board-info h1 > a:after {
   content: '(0107 특별한 날)';
   color: #dedede;
   font-size: 14px;
-}
+} */
 
 /* 눈내리는 효과 */
 @keyframes snow {
