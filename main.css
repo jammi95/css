@@ -120,7 +120,9 @@ div#article-list:before {
 }
 
 /* 게시판 목록 너비 */
-#article-list #article-list-category,
+#article-list #article-list-category {
+	border-right: none;
+}
 #article-list > .article-list-row {
 	width: calc(100% + 2em);
 	border-right: none;
